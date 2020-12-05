@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+	<title>扑克牌</title>
+	<style>
+	*, body {
+		margin: 0;
+        padding: 0;
+	}
+	div{
+        width: 400px;
+        height: 613px;
+        margin: 50px auto;
+        border-radius: 66px;
+        position:relative;
+    }
+    div img{
+        width: 400px;
+        height: 613px;
+        position: absolute;
+        border-radius: 66px;
+        transition: all 1s;
+        transform-origin: bottom center;
+    }
+	div:hover img:nth-child(1) {
+		transform: rotate(55deg);
+	}
+    div:hover img:nth-child(2) {
+    	transform: rotate(45deg);
+    }
+    div:hover img:nth-child(3) {
+    	transform: rotate(35deg);
+    }
+    div:hover img:nth-child(4) {
+		transform: rotate(25deg);
+	}
+    div:hover img:nth-child(5) {
+    	transform: rotate(15deg);
+    }
+    div:hover img:nth-child(6) {
+    	transform: rotate(5deg);
+    }
+    div:hover img:nth-child(7) {
+		transform: rotate(-5deg);
+	}
+    div:hover img:nth-child(8) {
+    	transform: rotate(-15deg);
+    }
+    div:hover img:nth-child(9) {
+    	transform: rotate(-25deg);
+    }
+    div:hover img:nth-child(10) {
+		transform: rotate(-35deg);
+	}
+    div:hover img:nth-child(11) {
+    	transform: rotate(-45deg);
+    }
+    div:hover img:nth-child(12) {
+    	transform: rotate(-55deg);
+    }
+    div:hover img:nth-child(13) {
+		transform: rotate(-65deg);
+	}
+	div:hover img:nth-child(14) {
+		transform: rotate(-75deg);
+		z-index: 14;
+	}
+	div:hover img:nth-child(15) {
+		transform: rotate(-85deg);
+		z-index: 15;
+	}
+	</style>
+</head>
+<body>
+	<div class="pics">
+		<img src="images/1.jpg" alt="A">
+		<img src="images/2.jpg" alt="2">
+		<img src="images/3.jpg" alt="3">
+		<img src="images/4.jpg" alt="4">
+		<img src="images/5.jpg" alt="5">
+		<img src="images/6.jpg" alt="6">
+		<img src="images/7.jpg" alt="7">
+		<img src="images/8.jpg" alt="8">
+		<img src="images/9.jpg" alt="9">
+		<img src="images/10.jpg" alt="10">
+		<img src="images/11.jpg" alt="J">
+		<img src="images/12.jpg" alt="Q">
+		<img src="images/13.jpg" alt="K">
+		<img src="images/j.jpg" alt="j1">
+		<img src="images/j2.jpg" alt="j2">
+	</div>
+</body>
+</html>

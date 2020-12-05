@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+	<title>盾牌</title>
+	<style>
+	* {
+		margin: 0;
+        padding: 0;
+	    background: black;
+    }
+	.shield {
+		width: 500px;
+		height: 650px;
+		margin: 100px auto;
+		padding-top: 100px;
+	}
+	.shield img:nth-child(1){
+		transform: translate(-550px,-120px) rotate(100deg);
+		transition: all 0.8s linear;
+	}
+	.shield img:nth-child(2){
+		transform: translate(-750px,180px) rotate(200deg);
+		transition: all 0.8s linear;
+	}
+	.shield img:nth-child(3){
+		transform: translate(650px,-40px) rotate(300deg);
+		transition: all 0.8s linear;
+	}
+	.shield img:nth-child(4){
+		transform: translate(920px,50px) rotate(400deg);
+		transition: all 0.8s linear;
+	}
+	.shield:hover img{
+		transform: translate(0,0) rotate(0deg);	
+	}
+	</style>
+</head>
+<body>
+	<div class="shield">
+		<img src="images/shield_1_01.png" alt="盾牌碎片1">
+		<img src="images/shield_1_02.png" alt="盾牌碎片2">
+		<img src="images/shield_1_03.png" alt="盾牌碎片3">
+		<img src="images/shield_1_04.png" alt="盾牌碎片4">
+		<img src="images/shield_1_05.png" alt="盾牌碎片5">
+		<img src="images/shield_1_06.png" alt="盾牌碎片6">
+		<img src="images/shield_1_07.png" alt="盾牌碎片7">
+		<img src="images/shield_1_08.png" alt="盾牌碎片8">
+		<img src="images/shield_1_09.png" alt="盾牌碎片9">
+	</div>
+</body>
+</html>
